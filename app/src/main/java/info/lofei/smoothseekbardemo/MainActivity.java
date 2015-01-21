@@ -63,13 +63,13 @@ public class MainActivity extends ActionBarActivity implements SeekBar.OnSeekBar
         if(v instanceof Button) {
             String text = ((Button)v).getText().toString();
             int progress = Integer.parseInt(text);
+            // call it as usual as a normal SeekBar.
             mSeekBar.setProgress(progress);
         }
     }
 
     @Override
     public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-        Log.d("test", ""+progress);
         mProgressInfoTextView.setText(String.valueOf(progress));
     }
 
