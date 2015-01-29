@@ -8,7 +8,6 @@ In layout xml file:
 ```xml
 <info.lofei.smoothseekbardemo.SmoothSeekBar
     android:id="@+id/seekbar"
-    android:layout_below="@id/progress_info"
     android:layout_width="match_parent"
     android:layout_height="wrap_content" />
 ```
@@ -22,7 +21,7 @@ seekBar.setProgress(progress);
 ```
 
 # Effect
-![Preview Image](app/preview/preview.gif "Preview.gif")
+![Preview Image](app/preview/SmoothSeekBar.gif "Preview.gif")
 
 # License
 The MIT License (MIT)
